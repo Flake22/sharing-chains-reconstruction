@@ -117,10 +117,13 @@ If you use this code in your work, please cite our paper:
 
 
 ```
-@misc{X,
+@misc{verde2021multiclue,
       title={Multi-clue reconstruction of sharing chains for social media images}, 
-      author={Sebastiano Verde and Federica Lago and Cecilia Pasquini and Giulia Boato and Francesco GB De Natale and Alessandro Piva},
+      author={Sebastiano Verde and Cecilia Pasquini and Federica Lago and Alessandro Goller and Francesco GB De Natale and Alessandro Piva and Giulia Boato},
       year={2021},
+      eprint={2108.02515},
+      archivePrefix={arXiv},
+      primaryClass={cs.MM}
 }
 ```
 
