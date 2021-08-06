@@ -1,10 +1,10 @@
-# Toolchain - Social Network Chain identification
+# Multi-clue reconstruction of sharing chains for social media images [[arXiv]](http://arxiv.org/abs/2108.02515)
 
-*Multi-clue reconstruction of sharing chains for social media images*
+## Sebastiano Verde, Cecilia Pasquini, Federica Lago, Alessandro Goller, Francesco GB De Natale, Alessandro Piva, and Giulia Boato 
 
-Sebastiano Verde and Federica Lago and Cecilia Pasquini and Giulia Boato and Francesco GB De Natale and Alessandro Piva
+## Abstract
 
-University of Trento
+The amount of multimedia content shared everyday, combined with the level of realism reached by recent fake-generating technologies, threatens to impair the trustworthiness of online information sources. The process of uploading and sharing data tends to hinder standard media forensic analyses, since multiple re-sharing steps progressively hide the traces of past manipulations. At the same time though, new traces are introduced by the platforms themselves, enabling the reconstruction of the sharing history of digital objects, with possible applications in information flow monitoring and source identification. In this work, we propose a supervised framework for the reconstruction of image sharing chains on social media platforms. The system is structured as a cascade of backtracking blocks, each of them tracing back one step of the sharing chain at a time. Blocks are designed as ensembles of classifiers trained to analyse the input image independently from one another by leveraging different feature representations that describe both content and container of the media object. Individual decisions are then properly combined by a late fusion strategy. Results highlight the advantages of employing multiple clues, which allow accurately tracing back up to three steps along the sharing chain.
 
 ## Prerequisites
 
@@ -104,7 +104,14 @@ python bks-informed-cascade.py
 
 ## Acknoledgment
 
-This code was developed by Federica Lago and Sebastiano Verde and is partially based on Quoc-Tin Phan's work [1]
+This code is partially based on Quoc-Tin Phan's work [1].
+
+We thank Prof. Fabio Roli (University of Cagliari, Italy) for the valuable insights on classifier fusion and the BKS method. We also thank Chiara Albisani (University of Florence, Italy) for contributing to the parsing of header data. 
+
+This material is based upon work supported by the Defense Advanced Research Projects Agency (DARPA) under Agreement No. HR00112090136 and by the PREMIER project, funded by the Italian Ministry of Education, University, and Research (MIUR).
+
+
+## Citation
 
 If you use this code in your work, please cite our paper:
 
